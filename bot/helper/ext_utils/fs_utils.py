@@ -12,7 +12,7 @@ import time
 from PIL import Image
 from hachoir.parser import createParser
 from hachoir.metadata import extractMetadata
-from fsplit.filesplit import Filesplit
+#from fsplit.filesplit import Filesplit
 from bot import aria2, LOGGER, DOWNLOAD_DIR, TG_SPLIT_SIZE
 
 VIDEO_SUFFIXES = ("M4V", "MP4", "MOV", "FLV", "WMV", "3GP", "MPG", "WEBM", "MKV", "AVI")
